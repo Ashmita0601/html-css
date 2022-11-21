@@ -77,6 +77,7 @@
         border-radius: 20px;
         margin-right: 8px;
         cursor: pointer;
+        transition: opacity 0.15s; /*for smoothness*/
     }
     .linkedIn2{
         background-color: white;
@@ -89,10 +90,20 @@
         font-size: 15px;
         border-radius: 20px;
         cursor: pointer;
+        transition: background-color 0.15s,color 0.15s;
+        box-shadow: 10px 10px 20px black; /* horizontal vertical blur color*/
     }
     .linkedIn1:hover{ 
-        background-color: pink;   /*hover syntax*/
-        
+        /*background-color: pink; */  /*hover syntax*/
+        opacity: 0.8;/*it ranges from 0 to 1 */
+    }
+    .linkedIn1:hover:active{
+        background-color: brown; /*changes color when we click*/
+    }
+    .linkedIn2:hover{
+        background-color: rgb(10,102,194);
+        color: white;
+        border-color:rgb(10,102,194) ;
     }
 
 </style>
