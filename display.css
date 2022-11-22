@@ -1,0 +1,30 @@
+body{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.box1,.box2
+{
+    font-size: 15px;
+    display: block; /*takes up the entire line*/
+    margin-top: 8px;
+    border-radius: 2px;
+
+}
+/*only takes up as much as needed*/
+/*appear within a line of text*/
+.text{
+    width: 70%;
+    text-align: justify;  /*aligns the txt equally*/
+    display: inline-block;
+    padding-right: 20px;
+    vertical-align: middle;
+}
+.button1,.button2{
+    vertical-align: middle;
+    color: white;
+    background-color:#51aed3;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    vertical-align: middle;
+}
