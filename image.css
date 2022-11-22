@@ -1,0 +1,104 @@
+.img1{
+    width: 200px;
+    border-radius: 20px;
+    object-position: top;
+    border-style: solid;
+    border-color: red;
+}
+.img2{
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /*manages the image if the height and width doest fit*/
+    object-position: center; /*displays the part of image within selected boundary:either left or right or center*/
+    border-width: 3px;
+    border-color: rgb(255, 5, 5);
+    border-style: solid;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+.img3{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;/*shrinks the content of image within limited frame*/
+    object-position: top;
+    border-color: red;
+    border-style: solid;
+    
+}
+.textbox1{
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.textbox2{
+    margin-left: 20px;
+    width: 250px;
+    height: 30px;
+    font-size: 15px;
+    border:none;
+    box-shadow: 3px 5px 10px rgb(71, 70, 70);
+    border-radius: 15px;
+    padding-left: 10px;
+}
+.sevenf{
+    margin-top: 20px;
+    width: 420px;
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    color: gray;
+}
+.linkedin-signup{
+    margin-top: 0px;
+    padding-top: 8px;
+   margin-bottom: 8px;
+}
+.email{
+    margin-top: 0px;
+    width: 390px;
+    font-size: 20px;
+    border: none;
+}
+.linkedin-txt{
+    margin-bottom: 8px;
+    margin-top: 10px;
+    width: 400px;
+}
+.linkedin-button
+{
+    margin-bottom: 10px;
+    color: white;
+    background-color:#25559f;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 390px;
+}
+.img4{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    object-position: left;
+    border-radius:25px ;
+    
+    vertical-align: middle;/*align item in the middle vertically*/
+
+}
+.status{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 15px;
+    border: none;
+    vertical-align: middle;
+}
+.tweet-button{
+    color: white;
+    background-color:#51aed3;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+.combine{
+    margin-top: 20px;
+}
